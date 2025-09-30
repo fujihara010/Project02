@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Simple Webpage</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header">
+<h1>Simple Webpage</h1>
+<p class="lead">Um exemplo pequeno com HTML, CSS e JavaScript — pronto para colocar no Git.</p>
+</header>
+
+<main class="container">
+<section class="card">
+<h2>Contador</h2>
+<div class="counter-row">
+<button id="decrement">-</button>
+<span id="count">0</span>
+<button id="increment">+</button>
+</div>
+</section>
+
+<section class="card">
+<h2>Saudação</h2>
+<form id="greetForm">
+<label for="name">Seu nome</label>
+<input id="name" name="name" placeholder="Digite seu nome" />
+<button type="submit">Saudar</button>
+</form>
+<p id="greeting" class="greeting" aria-live="polite"></p>
+</section>
+
+<section class="card">
+<h2>Exportar</h2>
+<p>Use o botão abaixo para baixar os três arquivos como um ZIP no seu computador.</p>
+<button id="downloadBtn">Baixar ZIP</button>
+</section>
+</main>
+
+<footer class="site-footer">
+<small>Feito com ❤️ — Exemplo mínimo</small>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
